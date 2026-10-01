@@ -152,3 +152,4 @@ void Game::CheckCollision()
 		endMessage = "You lose. Press 'R' to play again.";
 	}
 }
+

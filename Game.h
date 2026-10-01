@@ -2,6 +2,7 @@
 #include "Box.h"
 #include "Ball.h"
 #include <vector>
+#include <string>
 
 class Game
 {
@@ -10,6 +11,10 @@ class Game
 
 	// Store multiple bricks
 	std::vector<Box> bricks;
+
+	// Game paused (win/lose) state and message
+	bool paused = false;
+	std::string endMessage;
 
 public:
 	Game();

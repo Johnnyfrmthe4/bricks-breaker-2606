@@ -11,5 +11,4 @@ public:
 	int hits = 0;
 	void Draw() const override;
 	bool Contains(int x, int y);
-
 };
